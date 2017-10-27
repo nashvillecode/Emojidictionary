@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34AE35C01F699365001F50AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE35BF1F699365001F50AF /* AppDelegate.swift */; };
-		34AE35C21F699365001F50AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE35C11F699365001F50AF /* ViewController.swift */; };
+		348432E11F7A969800C1DB2D /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348432E01F7A969800C1DB2D /* Emoji.swift */; };
+		348432E31F7AA7D200C1DB2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE35BF1F699365001F50AF /* AppDelegate.swift */; };
+		348432E41F7AA7DA00C1DB2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE35C11F699365001F50AF /* ViewController.swift */; };
 		34AE35C51F699365001F50AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AE35C31F699365001F50AF /* Main.storyboard */; };
 		34AE35C71F699365001F50AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AE35C61F699365001F50AF /* Assets.xcassets */; };
 		34AE35CA1F699365001F50AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AE35C81F699365001F50AF /* LaunchScreen.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		348432E01F7A969800C1DB2D /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		34AE35BC1F699365001F50AF /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34AE35BF1F699365001F50AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34AE35C11F699365001F50AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				34AE35BF1F699365001F50AF /* AppDelegate.swift */,
 				34AE35C11F699365001F50AF /* ViewController.swift */,
 				34AE35D11F6AF93B001F50AF /* DefinitionViewController.swift */,
+				348432E01F7A969800C1DB2D /* Emoji.swift */,
 				34AE35C31F699365001F50AF /* Main.storyboard */,
 				34AE35C61F699365001F50AF /* Assets.xcassets */,
 				34AE35C81F699365001F50AF /* LaunchScreen.storyboard */,
@@ -139,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34AE35C21F699365001F50AF /* ViewController.swift in Sources */,
+				348432E31F7AA7D200C1DB2D /* AppDelegate.swift in Sources */,
 				34AE35D21F6AF93B001F50AF /* DefinitionViewController.swift in Sources */,
-				34AE35C01F699365001F50AF /* AppDelegate.swift in Sources */,
+				348432E41F7AA7DA00C1DB2D /* ViewController.swift in Sources */,
+				348432E11F7A969800C1DB2D /* Emoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
